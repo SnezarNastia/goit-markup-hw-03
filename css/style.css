@@ -1,0 +1,165 @@
+:root{
+    --primary-text-color:#434455;
+    --title-text-color:#2E2F42;
+    --accent-clor:#4D5AE5;
+    --primary-white-color:#FFFFFF;
+    --secondary-color:#F4F4FD;
+    --footer-text-color:#E7E9FC;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+/* logo */
+.logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--title-text-color)
+}
+.logo span{
+    color: var(--accent-clor);
+}
+  
+.nav-link {
+        font-weight: 600;
+        line-height: 1.5;
+        color:var(--title-text-color)
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-clor);
+}
+
+.contact {
+    line-height: 1.5;
+    color: var(--primary-text-color)
+}
+.contact:hover,
+.contact:focus{
+    color: var(--accent-clor)
+}
+
+.hero{
+    background-color: var(--title-text-color);
+}
+.hero-title{
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1;
+        text-align: center;
+        color:var(--primary-white-color);
+}
+.btm{
+        font-weight: 600;
+        line-height: 1.18;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: var(--primary-white-color);
+        background-color: var(--accent-clor);
+        cursor: pointer;
+}
+ .button{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: var(--accent-clor);
+        background-color: var(--primary-white-color);
+        cursor: pointer;
+ }
+
+ .button:hover,
+ .button:focus{
+    color:var(--footer-text-color);
+    background-color: var(--accent-clor);
+ }
+
+
+.benefits-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--title-text-color)
+}
+
+.benefits-text {
+        line-height: 1.5;
+        color: var(--primary-text-color);
+}
+
+.section-title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--title-text-color);
+}
+
+
+.subject {
+    background-color: var(--secondary-color);
+}
+
+.name-list{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--title-text-color);
+}
+
+.description{
+        line-height: 1.5;
+        color: var(--primary-text-color);
+}
+
+.team-name {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--title-text-color);
+}
+
+.team-position {
+        line-height: 1.5;
+        color:var(--primary-text-color)
+}
+
+.footer {
+    background-color: var(--title-text-color)
+}
+
+.footer-copy {
+            line-height: 1.5;
+            color:var(--footer-text-color)
+}
+.footer-logo{
+            font-family: 'Raleway';
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.33;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--secondary-color)
+        }
+.footer-logo span {
+    color: var(--accent-clor);
+}
