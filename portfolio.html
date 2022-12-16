@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Studio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,27 +24,25 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav>
+        <nav class="main-nav">
           <a class="logo list link" href="/"><span>WEB</span>STUDIO</a>
-          <ul class="list-header list">
-            <li class="item-header">
+          <ul class="nav-list list">
+            <li class="item">
               <a href="/index.html" class="nav-link link">Studio</a>
             </li>
-            <li class="item-header">
+            <li class="item">
               <a href="./portfolio.html" class="nav-link link">Portfolio</a>
             </li>
-            <li class="item-header">
-              <a href="/" class="nav-link link">Contacts</a>
-            </li>
+            <li class="item"><a href="/" class="nav-link link">Contacts</a></li>
           </ul>
         </nav>
-        <ul class="contact-list list">
-          <li class="contacts">
+        <ul class="contacts list">
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="contact link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts">
+          <li class="item">
             <a href="tel:+110001111111" class="contact link"
               >+11 (000) 111-11-11</a
             >
@@ -54,150 +52,160 @@
     </header>
 
     <main>
-      <div class="container">
-        <!--<h1>Portfolio</h1>-->
-        <ul class="btn-list list">
-          <li><button type="button" class="button">All</button></li>
-          <li><button type="button" class="button">Web Site</button></li>
-          <li><button type="button" class="button">App</button></li>
-          <li><button type="button" class="button">Design</button></li>
-          <li><button type="button" class="button">Marketing</button></li>
-        </ul>
-      </div>
+      <section class="portfolio section">
+        <div class="container">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="btn-list list">
+            <li class="item">
+              <button type="button" class="button">All</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button">Web Site</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button">App</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button">Design</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button">Marketing</button>
+            </li>
+          </ul>
+        </div>
 
-      <div class="container-photo">
-        <ul class="photo-items list">
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo8.jpg"
-                alt="App"
-              />
-            </a>
+        <div class="container">
+          <ul class="photo-items list">
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo8.jpg"
+                  alt="App"
+                />
+              </a>
 
-            <h3 class="name-list">Banking App Interface Concept</h3>
-            <p class="description">App</p>
-          </li>
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo9.jpg"
-                alt="blue"
-              />
-            </a>
+              <h3 class="name-list">Banking App Interface Concept</h3>
+              <p class="description">App</p>
+            </li>
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo9.jpg"
+                  alt="blue"
+                />
+              </a>
 
-            <h3 class="name-list">Cashless Payment</h3>
-            <p class="description">Marketing</p>
-          </li>
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo10.jpg"
-                alt="computer"
-              />
-            </a>
+              <h3 class="name-list">Cashless Payment</h3>
+              <p class="description">Marketing</p>
+            </li>
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo10.jpg"
+                  alt="computer"
+                />
+              </a>
 
-            <h3 class="name-list">Meditaion App</h3>
-            <p class="description">App</p>
-          </li>
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo11.jpg"
-                alt="machine"
-              />
-            </a>
+              <h3 class="name-list">Meditaion App</h3>
+              <p class="description">App</p>
+            </li>
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo11.jpg"
+                  alt="machine"
+                />
+              </a>
 
-            <h3 class="name-list">Taxi Service</h3>
-            <p class="description">Marketing</p>
-          </li>
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo12.jpg"
-                alt="phone"
-              />
-            </a>
+              <h3 class="name-list">Taxi Service</h3>
+              <p class="description">Marketing</p>
+            </li>
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo12.jpg"
+                  alt="phone"
+                />
+              </a>
 
-            <h3 class="name-list">Screen Illustrations</h3>
-            <p class="description">Design</p>
-          </li>
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo13.jpg"
-                alt="women"
-              />
-            </a>
+              <h3 class="name-list">Screen Illustrations</h3>
+              <p class="description">Design</p>
+            </li>
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo13.jpg"
+                  alt="women"
+                />
+              </a>
 
-            <h3 class="name-list">Online Courses</h3>
-            <p class="description">Marketing</p>
-          </li>
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo14.jpg"
-                alt="design"
-              />
-            </a>
+              <h3 class="name-list">Online Courses</h3>
+              <p class="description">Marketing</p>
+            </li>
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo14.jpg"
+                  alt="design"
+                />
+              </a>
 
-            <h3 class="name-list">Instagram Stories Concept</h3>
-            <p class="description">Design</p>
-          </li>
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo15.jpg"
-                alt="shopper"
-              />
-            </a>
+              <h3 class="name-list">Instagram Stories Concept</h3>
+              <p class="description">Design</p>
+            </li>
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo15.jpg"
+                  alt="shopper"
+                />
+              </a>
 
-            <h3 class="name-list">Organic Food</h3>
-            <p class="description">Web Site</p>
-          </li>
-          <li class="photo-element">
-            <a href="/">
-              <img
-                class="pic"
-                width="360"
-                height="300"
-                src="./images/photo16.jpg"
-                alt="coffe"
-              />
-            </a>
+              <h3 class="name-list">Organic Food</h3>
+              <p class="description">Web Site</p>
+            </li>
+            <li class="photo-element">
+              <a href="/">
+                <img
+                  class="pic"
+                  width="360"
+                  height="300"
+                  src="./images/photo16.jpg"
+                  alt="coffe"
+                />
+              </a>
 
-            <h3 class="name-list">Fresh Coffee</h3>
-            <p class="description">Web Site</p>
-          </li>
-        </ul>
-      </div>
+              <h3 class="name-list">Fresh Coffee</h3>
+              <p class="description">Web Site</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-
-    \
     <footer class="footer section">
       <div class="container">
         <a class="footer-logo link list" href="/"><span>WEB</span>STUDIO</a>
