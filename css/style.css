@@ -27,12 +27,17 @@ body {
     font-size: 16px;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
-
 
 a {
     text-decoration: none;
@@ -170,10 +175,6 @@ header .container {
     background-color: var(--active-btm-color);
 }
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 .visually-hidden {
     position: absolute;
@@ -237,6 +238,7 @@ header .container {
 .portfolio-list .pic {
     display: block;
     max-width: 100%;
+    margin-bottom: 32px;
 }
 
 .affairs .item:not(:last-child) {
@@ -250,6 +252,7 @@ header .container {
 .subject .list {
     display: flex;
     text-align: center;
+    gap: 24px;
 }
 
 .team-card {
@@ -257,6 +260,7 @@ header .container {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 32px;
 }
 
 .text .team-card:not(:last-child) {
@@ -264,8 +268,6 @@ header .container {
 }
 
 .team-name {
-    padding-top: 32px;
-    padding-bottom: 32px;
     margin-bottom: 8px;
 
     font-weight: 600;
@@ -275,8 +277,6 @@ header .container {
 }
 
 .team-position {
-    padding-top: 32px;
-    padding-bottom: 32px;
 
     line-height: 1.5;
     color: var(--primary-text-color)
@@ -293,7 +293,6 @@ header .container {
 }
 
 .footer-copy {
-    padding-top: 16px;
     line-height: 1.5;
     color: var(--footer-text-color)
 }
